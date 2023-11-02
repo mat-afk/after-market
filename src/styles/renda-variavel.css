@@ -5,6 +5,7 @@
 body {
     position: absolute;
     margin: 0 0;
+    background-color: #f6fcf7;
 }
 
 header {
@@ -26,8 +27,6 @@ header {
 }
 
 .page-container {
-    background-color: #f6fcf7;
-    padding: 0% 27%;
     margin: 0 0;
 }
 

@@ -3,8 +3,11 @@
 }
 
 body {
-    position: absolute;
-    margin: 0 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6fcf7;
 }
 
 header {
@@ -27,44 +30,42 @@ header {
 }
 
 .page-container {
-    background-color: #f6fcf7;
-    padding: 0% 27%;
-    margin: 80px 0 0 0;
+    padding: 0% 28%;
+    position: absolute; 
 }
 
-.invest {
-    display: inline-flex;
-    justify-content: space-evenly;
-}
-
-.h1 {
-    text-align: center;
-    color: white;display: inline-flex;
-    justify-self: space-around;
-    font-size: x-large;
-    font-family: system-ui;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 4px 4px 0 #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding: 5% 0%;
 }
 
 .circle{
     background: #d7fce1;
     border-radius: 50%;
-    width: 290px;
-    height: 290px;
+    width: 240px;
+    height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: space-evenly;
 }
 
-.shadowCircle {
-    width: 300px;
-    height: 300px;
+.shadow-circle {
+    width: 250px;
+    height: 250px;
     background-color: #9dfab6;
     border-radius:50%;
     box-shadow: 3px 3px 3px #9dfab6;
     opacity: 90%;
+}
+  
+.text-content {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 4% 1%;
+    font-size: 16px;
 }
 
 .title {

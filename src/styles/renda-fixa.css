@@ -3,15 +3,16 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #f6fcf7;
+    background: rgb(166,231,117);
+    background: linear-gradient(90deg, rgba(166,231,117,1) 16%, rgba(185,222,108,1) 50%, rgba(212,210,93,1) 100%);
+    height: 100%;
 }
 
 header {
-    width: 600%;
     background-color: #d7fce1;
 }
 
@@ -30,41 +31,49 @@ header {
 }
 
 .page-container {
-    padding: 0% 28%;
-    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.background-container {
+    background-color: #f2fff7;
 }
 
 .circles-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto; 
     padding: 5% 0%;
+    background: rgb(166,231,117);
+    background: linear-gradient(90deg, rgba(212,210,93,1) 16%, rgba(185,222,108,1) 50%, rgba(166,231,117,1) 100%);
+    width: 60vw;
 }
 
 .circle{
-    background: #d7fce1;
-    border-radius: 50%;
-    width: 240px;
-    height: 240px;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: space-evenly;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px #000015, 8px 8px 16px 2px #000015;
+    transition: box-shadow 0.3s;
 }
 
-.shadow-circle {
-    width: 250px;
-    height: 250px;
-    background-color: #9dfab6;
-    border-radius:50%;
-    box-shadow: 3px 3px 3px #9dfab6;
-    opacity: 90%;
+.circle:hover {
+    box-shadow: 0 0 16px 2px #000015, 16px 16px 32px 4px #000015;
 }
   
 .text-content {
     text-align: justify;
     text-justify: inter-word;
-    padding: 4% 1%;
+    padding: 3% 5%;
     font-size: 16px;
 }
 

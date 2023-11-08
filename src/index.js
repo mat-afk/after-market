@@ -5,6 +5,7 @@ const redirectTo = (url) => {
 document.addEventListener("DOMContentLoaded", function () {
     const circles = document.querySelectorAll(".circle");
     const textContent = document.getElementById("text-content");
+    const backgroundContainer = document.getElementById("background-container");
 
     const circleTexts = [
         `<p>
@@ -57,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     circles.forEach((circle, index) => {
         circle.addEventListener("click", () => {
             textContent.innerHTML = `<h1>${circle.textContent}</h1><br>${circleTexts[index]}`;
+            backgroundContainer.style.padding = "10px";
         });
     });
 });

@@ -4,6 +4,12 @@ header {
     justify-content: space-between;
 }
 
+
 ul{ 
    text-decoration: none; 
+}
+
+.main {
+    position: relative;
+    text-align: center;
 }

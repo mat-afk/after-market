@@ -1,9 +1,18 @@
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+body {
+    background-color: #d7fce1;
 }
 
+.logo-container {
+    align-items: center;
+    display: inline-block;
+}
+
+.logo-container .logo {
+    width: 500px;
+    text-align: center;
+    float: center;
+    margin: 5px 36vw;
+}
 
 ul{ 
    text-decoration: none; 
@@ -12,4 +21,30 @@ ul{
 .main {
     position: relative;
     text-align: center;
+}
+
+.button-background {
+    background: linear-gradient(90deg, rgba(166,231,117,1) 16%, rgba(185,222,108,1) 50%, rgba(212,210,93,1) 100%);;
+    border-style: hidden;
+    padding: 1vw 1vw;
+    border-width: 10px;
+    border-radius: 500px;
+    box-shadow: 0 0 2px 0px #000015, 12px 12px 24px 2px #000015;
+}
+
+.button-background:hover {
+    box-shadow: 0 0 10px 2px #000015, 24px 24px 36px 4px #000015;
+}
+
+.button-renda {
+    background: #f2fff7;
+    border-radius: 400px;
+    padding: 3vw 8vw;
+    width: 20vw;
+    font-size: 30px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.button-container{
+    padding: 1vw 0;
 }

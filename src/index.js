@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const backgroundContainer = document.getElementById("background-container");
 
     const circleTexts = [
-        `<p>
+        `<p class="text-format">
             O agronegócio faz parte de uma grande porcentagem da renda de muitos países, estando presente em todos os continentes. 
             Foi criada a meio de investimento LCA (Letra de Crédito do Agronegócio). 
             A LCA é um atributo referente à renda fixa, e sua emissão é realizada a fim de financiar principalmente operações do agronegócio. 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             A liquidez das LCAs é ligeiramente menor em comparação a outros ativos, já que normalmente só é possível movimentar o valor aplicado após no mínimo 90 dias após o investimento.
         </p>`,
 
-        `<p>
+        `<p class="text-format">
             A LCI (Letra de Crédito Imobiliário) é uma opção de investimento em renda fixa que se destaca por ser isenta de Imposto de Renda. 
             Essa característica atrativa a torna uma alternativa mais rentável em comparação à poupança. Basicamente, quando você investe em LCI, 
             está emprestando dinheiro a uma instituição financeira, seja um banco ou outras entidades financeiras. 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             É uma maneira eficaz de fazer seu dinheiro trabalhar a seu favor e, ao mesmo tempo, contribuir para o crescimento da economia.
         </p>`,
 
-        `<p>
+        `<p class="text-format">
             A sigla CDB significa Certificado de depósito bancário, este faz parte dos investimentos de renda fixa, e existem 3 modalidades diferentes dentro do investimento do CDB, sendo elas:
             <ul>
                 <li>A prefixada, onde os juros são definidos na tela do investimento.
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             e esses fundos são utilizados pelo banco para fazer empréstimos às outras pessoas.
         </p>`,
 
-        `<p>
+        `<p class="text-format">
         A caderneta de poupança é frequentemente o ponto de partida de muitos brasileiros no mundo dos investimentos. 
         A simplicidade e acessibilidade deste veículo de renda fixa a tornam uma opção popular. 
         A poupança é um investimento de renda fixa, acessível e direta, disponível para pessoas de todas as idades, inclusive menores, 

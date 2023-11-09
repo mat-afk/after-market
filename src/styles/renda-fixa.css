@@ -35,13 +35,14 @@ header {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 60vw;
+    width: 70vw;
 }
 
 .background-container {
     padding: 0px;
     background: linear-gradient(90deg, rgba(106,171,57,1) 16%, rgba(135,172,58,1) 50%, rgba(172,170,53,1) 100%);
     border-radius: 35px;
+    max-width: 60vw;
     box-shadow: 0 0 2px 0px #000015, 12px 12px 24px 2px #000015;
 }
 
@@ -51,7 +52,7 @@ header {
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 5% 0%;
-    width: 60vw;
+    width: 70vw;
 }
 
 .circle{
@@ -68,16 +69,21 @@ header {
 }
 
 .circle:hover {
-    box-shadow: 0 0 14px 4x #000015, 24px 24px 36px 10px #000015;
+    box-shadow: 0 0 14px 4px #000015, 20px 20px 36px 5px #000015;
 }
   
 .text-content {
     text-align: justify;
     text-justify: inter-word;
-    padding: 3% 5%;
-    font-size: 16px;
+    padding: 3% 5%; 
+    font-size: 18px;
     background-color: #f2fff7;
     border-radius: 25px;
+}
+
+.text-format {
+    font-family: Georgia, serif;
+    font-size: 20px;
 }
 
 .title {

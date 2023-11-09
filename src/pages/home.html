@@ -13,13 +13,26 @@
   </head>
   <body>
     <header>
-      
+      <div class="logo-container">
+          <img 
+            src="../media/logo.png" 
+            alt="logo"
+            class="logo"
+          >
+      </div>
     </header>
     <main>
       <div class="main">
-        <button onClick="redirectTo('renda-fixa.html')">Renda fixa</button>
-
-        <button onClick="redirectTo('renda-variavel.html')">Renda variável</button>
+        <div class="button-container">
+          <button class="button-background" onClick="redirectTo('renda-fixa.html')">
+            <div class="button-renda"><b>Renda fixa</b></div>
+          </button>
+        </div>
+        <div class="button-container">
+          <button class="button-background"onClick="redirectTo('renda-variavel.html')">
+            <div class="button-renda"><b>Renda Variavel</b></div>
+          </button>
+        </div>
       </div>
     </main>
 

@@ -4,14 +4,15 @@ body {
 
 .logo-container {
     align-items: center;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .logo-container .logo {
     width: 500px;
     text-align: center;
     float: center;
-    margin: 5px 36vw;
 }
 
 ul{ 
